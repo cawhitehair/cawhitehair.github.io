@@ -105,8 +105,17 @@ section {
     color: var(--linkedin-color);
 }
 
-.linkedin-icon a:hover {
-    color: var(--primary-color);
+.github-icon {
+    color: var(--github-color);
+}
+
+.email-icon {
+    color: var(--email-color);
+}
+
+.social-links a:hover {
+    color: var(--text-color);
+    transform: scale(1.2);
 }
 
 .btn {
