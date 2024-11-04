@@ -1,6 +1,9 @@
 :root {
     --primary-color: #2c3e50;
     --secondary-color: #3498db;
+    --email-color: #D44638;
+    --linkedin-color: #0082ca;
+    --github-color: #6e5494;
     --text-color: #333;
     --light-bg: #f5f6fa;
 }
@@ -106,6 +109,10 @@ section {
 
 .social-links a:hover {
     color: var(--secondary-color);
+}
+
+.linkedin-icon {
+    color: var(--linkedin-color);
 }
 
 .btn {
